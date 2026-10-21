@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EDURAG AI
 ## Education Retrieval-Augmented Generation System
 ### Final-Year College Engineering Project
@@ -286,3 +287,7 @@ Student A can never view, query, edit, or delete documents, chats, notes, quizze
 7. **Verified Quiz Center**: Generate 5 Medium MCQs. Test taking the quiz, submitting, and viewing score with source page verification.
 8. **Fullscreen Mode**: Toggle fullscreen in AI Assistant — verify main sidebar hides while chat history panel and input remain fixed.
 9. **Dark Mode**: Toggle theme and verify persistent dark mode styling across all student views.
+=======
+# EduRAG-AI-System
+EduRAG AI is an AI-powered educational assistance system that uses Retrieval-Augmented Generation (RAG) to provide students with accurate, context-based answers from educational materials. It supports student and teacher dashboards, course management, PDF notes uploads, department-wise learning, and AI-based academic assistance.
+>>>>>>> daeb6988c251ce1674cb0ccb992f032f2c4df2ed
