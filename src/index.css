@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Base theme styles ensuring dark mode is applied across all root containers */
+html, body {
+  min-height: 100%;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+html.dark,
+html[data-theme="dark"],
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+html.dark body,
+html.dark {
+  background-color: #020617; /* slate-950 */
+  color: #f8fafc; /* slate-50 */
+}
+
+html:not(.dark) body,
+html:not(.dark) {
+  background-color: #f8fafc; /* slate-50 */
+  color: #0f172a; /* slate-900 */
+}

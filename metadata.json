@@ -1,0 +1,6 @@
+{
+  "name": "EduRAG AI - Education Retrieval-Augmented Generation System",
+  "description": "Production-grade Education Retrieval-Augmented Generation System for college students with MongoDB Atlas, Gemini AI, multi-format document processing, study-material grounded RAG, Notes Generator, and Quiz Center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
